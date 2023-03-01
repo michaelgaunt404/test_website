@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Services on A Hugo website</title>
+    <link>/categories/remote-services/</link>
+    <description>Recent content in Remote Services on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/remote-services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storing data remotely using AmazonS3</title>
+      <link>/2022/04/17/amazons3/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/04/17/amazons3/</guid>
+      <description>Welcome!This is the first entry in a larger series of markdowns that I will generate for a project that I am working on.
+Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I’m learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it.</description>
+    </item>
+    
+  </channel>
+</rss>

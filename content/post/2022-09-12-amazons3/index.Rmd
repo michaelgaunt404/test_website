@@ -1,0 +1,50 @@
+---
+title: Storing data remotely using AmazonS3
+author: Mike Gaunt
+date: '2022-04-17'
+slug: amazons3
+categories: ["Amazon", "Remote Services"]
+tags: ["data management", "cloud"]
+description: "Use AmazonS3 storage services to store data remotely."
+image: cloud.jpg
+math: ~
+license: ~
+hidden: no
+comments: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  cache = FALSE, cache.lazy = FALSE, autodep = TRUE, warning = FALSE, 
+  message = FALSE, echo = TRUE, dpi = 180,
+  fig.width = 8, fig.height = 5, echo = TRUE
+  )
+```
+
+## Welcome!
+
+This is the first entry in a larger series of markdowns that I will generate for a project that I am working on. 
+
+Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I'm learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it. I figured that using S3 to remotely store data would be a good stepping stone into remote data storage and eventually lead to storing data remotely in a database. 
+
+This blog post assumes that you have already uploaded data to Amazon S3 and are ready to go and interact with it. If you have yet to do so you can follow [this link](https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/) and get your data up there.
+
+Okay, enough primer, let's get into it!
+
+## Including Code
+
+The two main packages we will be using in this blog post will be the [cloudyr/aws.s3](https://github.com/cloudyr/aws.s3) package and the all encompassing [tidyverse](https://www.tidyverse.org/).
+
+```{r}
+#importing libraries
+library(tidyverse)
+```
+
+
+```{r}
+plot(mtcars[,1:2])
+```
+
+
+
+

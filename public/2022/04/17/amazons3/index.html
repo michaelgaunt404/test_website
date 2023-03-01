@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.89.2" />
+
+
+<title>Storing data remotely using AmazonS3 - A Hugo website</title>
+<meta property="og:title" content="Storing data remotely using AmazonS3 - A Hugo website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+  <meta property="description" content="Use AmazonS3 storage services to store data remotely.">
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/rstudio/blogdown">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/rstudio">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Storing data remotely using AmazonS3</h1>
+
+    
+    <span class="article-date">2022-04-17</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="welcome" class="section level2">
+<h2>Welcome!</h2>
+<p>This is the first entry in a larger series of markdowns that I will generate for a project that I am working on.</p>
+<p>Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I’m learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it. I figured that using S3 to remotely store data would be a good stepping stone into remote data storage and eventually lead to storing data remotely in a database.</p>
+<p>This blog post assumes that you have already uploaded data to Amazon S3 and are ready to go and interact with it. If you have yet to do so you can follow <a href="https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/">this link</a> and get your data up there.</p>
+<p>Okay, enough primer, let’s get into it!</p>
+</div>
+<div id="including-code" class="section level2">
+<h2>Including Code</h2>
+<p>The two main packages we will be using in this blog post will be the <a href="https://github.com/cloudyr/aws.s3">cloudyr/aws.s3</a> package and the all encompassing <a href="https://www.tidyverse.org/">tidyverse</a>.</p>
+<pre class="r"><code>#importing libraries
+library(tidyverse)</code></pre>
+<pre class="r"><code>plot(mtcars[,1:2])</code></pre>
+<p><img src="/2022/04/17/amazons3/index_files/figure-html/unnamed-chunk-2-1.png" width="1440" /></p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

@@ -6,7 +6,26 @@
     <description>Recent content in Posts on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QB Statistics - Added</title>
+      <link>/2023/02/11/using-empircal-bayes-to-rank-qb-perfromance./</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/2023/02/11/using-empircal-bayes-to-rank-qb-perfromance./</guid>
+      <description>Getting Familiar with Plotlyqb_stats_filtered &amp;lt;- qb_stats %&amp;gt;%filter(Att &amp;gt;= 300)m &amp;lt;- MASS::fitdistr(qb_stats_filtered$comp_per, dbeta,start = list(shape1 = 1, shape2 = 10))alpha0 &amp;lt;- m$estimate[1]beta0 &amp;lt;- m$estimate[2]OMG perfect, its so great! We gain a bit of extra interactivity barely any cost. You can now manipulate the plot area with zoom and drag features and get data attributes with hover-over capability but that’s about it.</description>
+    </item>
+    
+    <item>
+      <title>Storing data remotely using AmazonS3</title>
+      <link>/2022/04/17/amazons3/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/2022/04/17/amazons3/</guid>
+      <description>Welcome!This is the first entry in a larger series of markdowns that I will generate for a project that I am working on.
+Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I’m learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it.</description>
+    </item>
+    
     <item>
       <title>QB Statistics</title>
       <link>/2021/09/11/using-empircal-bayes-to-rank-qb-perfromance./</link>
