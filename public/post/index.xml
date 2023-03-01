@@ -6,7 +6,16 @@
     <description>Recent content in Posts on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QB Statistics</title>
+      <link>/2021/09/11/using-empircal-bayes-to-rank-qb-perfromance./</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/2021/09/11/using-empircal-bayes-to-rank-qb-perfromance./</guid>
+      <description>Getting Familiar with Plotlyqb_stats_filtered &amp;lt;- qb_stats %&amp;gt;%filter(Att &amp;gt;= 300)m &amp;lt;- MASS::fitdistr(qb_stats_filtered$comp_per, dbeta,start = list(shape1 = 1, shape2 = 10))alpha0 &amp;lt;- m$estimate[1]beta0 &amp;lt;- m$estimate[2]OMG perfect, its so great! We gain a bit of extra interactivity barely any cost. You can now manipulate the plot area with zoom and drag features and get data attributes with hover-over capability but that’s about it.</description>
+    </item>
+    
     <item>
       <title>Hello R Markdown</title>
       <link>/2020/12/01/hello-r-markdown/</link>
