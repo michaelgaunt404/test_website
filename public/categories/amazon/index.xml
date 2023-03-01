@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Amazon on A Hugo website</title>
-    <link>/categories/amazon/</link>
-    <description>Recent content in Amazon on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/amazon/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Storing data remotely using AmazonS3</title>
-      <link>/2022/04/17/amazons3/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/2022/04/17/amazons3/</guid>
-      <description>Welcome!This is the first entry in a larger series of markdowns that I will generate for a project that I am working on.
-Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I’m learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Amazon on A Hugo website</title>
+        <link>/categories/amazon/</link>
+        <description>Recent content in Amazon on A Hugo website</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/amazon/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Storing data remotely using AmazonS3</title>
+        <link>/2022/04/17/amazons3/</link>
+        <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/2022/04/17/amazons3/</guid>
+        <description>&lt;img src="/2022/04/17/amazons3/cloud.jpg" alt="Featured image of post Storing data remotely using AmazonS3" /&gt;
+
+
+&lt;div id=&#34;welcome&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Welcome!&lt;/h2&gt;
+&lt;p&gt;This is the first entry in a larger series of markdowns that I will generate for a project that I am working on.&lt;/p&gt;
+&lt;p&gt;Together in this blog post, we will learn how to use Amazon S3 to remotely store data (I’m learning with you too, cool!). I am personally motivated to learn this because I feel that I am very reliant on locally storing my data and feel that this is somewhat a bad habit though everyone does it. I figured that using S3 to remotely store data would be a good stepping stone into remote data storage and eventually lead to storing data remotely in a database.&lt;/p&gt;
+&lt;p&gt;This blog post assumes that you have already uploaded data to Amazon S3 and are ready to go and interact with it. If you have yet to do so you can follow &lt;a href=&#34;https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/&#34;&gt;this link&lt;/a&gt; and get your data up there.&lt;/p&gt;
+&lt;p&gt;Okay, enough primer, let’s get into it!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-code&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Including Code&lt;/h2&gt;
+&lt;p&gt;The two main packages we will be using in this blog post will be the &lt;a href=&#34;https://github.com/cloudyr/aws.s3&#34;&gt;cloudyr/aws.s3&lt;/a&gt; package and the all encompassing &lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;tidyverse&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#importing libraries
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(mtcars[,1:2])&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/2022/04/17/amazons3/index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;1440&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
